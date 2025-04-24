@@ -1,0 +1,1841 @@
+EESchema Schematic File Version 4
+LIBS:GR_Subscriber_Line_Audio_Matrix-cache
+EELAYER 29 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 2 2
+Title "Phone Jacks"
+Date "2024-05-02"
+Rev "1"
+Comp "Gadget Reboot"
+Comment1 "https://www.youtube.com/gadgetreboot"
+Comment2 "https://github.com/GadgetReboot/Subscriber_Line_Audio_Matrix"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 1075 3125 0    75   ~ 0
+Line 1
+$Comp
+L Connector:RJ12 J?
+U 1 1 674B8EC7
+P 1275 3550
+AR Path="/674B8EC7" Ref="J?"  Part="1" 
+AR Path="/6743103A/674B8EC7" Ref="J3"  Part="1" 
+F 0 "J3" V 1625 3275 50  0000 C CNN
+F 1 "RJ12" H 945 3645 50  0001 R CNN
+F 2 "footprints:RJ_6p6c" V 1275 3575 50  0001 C CNN
+F 3 "~" V 1275 3575 50  0001 C CNN
+	1    1275 3550
+	0    -1   1    0   
+$EndComp
+Text Label 1275 4175 1    50   ~ 0
+Ring1
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8ED0
+P 1175 4300
+AR Path="/674B8ED0" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8ED0" Ref="Z1"  Part="1" 
+F 0 "Z1" V 1100 4525 60  0000 R CNN
+F 1 "2V4" V 1200 4575 60  0000 R CNN
+F 2 "footprints:SOD-123" H 1375 4500 60  0001 L CNN
+F 3 "" H 1375 4600 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 1375 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 1375 4800 60  0001 L CNN "MPN"
+	1    1175 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 674B8ED6
+P 825 4175
+AR Path="/674B8ED6" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/674B8ED6" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 825 3925 50  0001 C CNN
+F 1 "GNDREF" H 830 4002 50  0001 C CNN
+F 2 "" H 825 4175 50  0001 C CNN
+F 3 "" H 825 4175 50  0001 C CNN
+	1    825  4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8EDE
+P 1175 4700
+AR Path="/674B8EDE" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8EDE" Ref="Z12"  Part="1" 
+F 0 "Z12" V 1228 4597 60  0000 R CNN
+F 1 "2V4" V 1122 4597 60  0000 R CNN
+F 2 "footprints:SOD-123" H 1375 4900 60  0001 L CNN
+F 3 "" H 1375 5000 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 1375 5100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 1375 5200 60  0001 L CNN "MPN"
+	1    1175 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1275 4925 1175 4925
+Wire Wire Line
+	1175 4925 1175 4900
+Wire Wire Line
+	1275 4925 1275 3950
+Wire Wire Line
+	825  4175 825  4100
+Wire Wire Line
+	825  4100 1175 4100
+Text Notes 1925 3125 0    75   ~ 0
+Line 2
+$Comp
+L Connector:RJ12 J?
+U 1 1 674B8EEA
+P 2150 3550
+AR Path="/674B8EEA" Ref="J?"  Part="1" 
+AR Path="/6743103A/674B8EEA" Ref="J4"  Part="1" 
+F 0 "J4" V 2500 3275 50  0000 C CNN
+F 1 "RJ12" H 1820 3645 50  0001 R CNN
+F 2 "footprints:RJ_6p6c" V 2150 3575 50  0001 C CNN
+F 3 "~" V 2150 3575 50  0001 C CNN
+	1    2150 3550
+	0    -1   1    0   
+$EndComp
+Text Label 2150 4175 1    50   ~ 0
+Ring2
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8EF3
+P 2050 4300
+AR Path="/674B8EF3" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8EF3" Ref="Z2"  Part="1" 
+F 0 "Z2" V 1975 4525 60  0000 R CNN
+F 1 "2V4" V 2075 4575 60  0000 R CNN
+F 2 "footprints:SOD-123" H 2250 4500 60  0001 L CNN
+F 3 "" H 2250 4600 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 2250 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 2250 4800 60  0001 L CNN "MPN"
+	1    2050 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8EFB
+P 2050 4700
+AR Path="/674B8EFB" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8EFB" Ref="Z13"  Part="1" 
+F 0 "Z13" V 2103 4597 60  0000 R CNN
+F 1 "2V4" V 1997 4597 60  0000 R CNN
+F 2 "footprints:SOD-123" H 2250 4900 60  0001 L CNN
+F 3 "" H 2250 5000 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 2250 5100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 2250 5200 60  0001 L CNN "MPN"
+	1    2050 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 4925 2050 4925
+Wire Wire Line
+	2050 4925 2050 4900
+Wire Wire Line
+	2150 4925 2150 3950
+Text Notes 2825 3125 0    75   ~ 0
+Line 3
+$Comp
+L Connector:RJ12 J?
+U 1 1 674B8F05
+P 3025 3550
+AR Path="/674B8F05" Ref="J?"  Part="1" 
+AR Path="/6743103A/674B8F05" Ref="J5"  Part="1" 
+F 0 "J5" V 3375 3275 50  0000 C CNN
+F 1 "RJ12" H 2695 3645 50  0001 R CNN
+F 2 "footprints:RJ_6p6c" V 3025 3575 50  0001 C CNN
+F 3 "~" V 3025 3575 50  0001 C CNN
+	1    3025 3550
+	0    -1   1    0   
+$EndComp
+Text Label 3025 4175 1    50   ~ 0
+Ring3
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8F0E
+P 2925 4300
+AR Path="/674B8F0E" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8F0E" Ref="Z3"  Part="1" 
+F 0 "Z3" V 2850 4525 60  0000 R CNN
+F 1 "2V4" V 2950 4575 60  0000 R CNN
+F 2 "footprints:SOD-123" H 3125 4500 60  0001 L CNN
+F 3 "" H 3125 4600 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 3125 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 3125 4800 60  0001 L CNN "MPN"
+	1    2925 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8F16
+P 2925 4700
+AR Path="/674B8F16" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8F16" Ref="Z14"  Part="1" 
+F 0 "Z14" V 2978 4597 60  0000 R CNN
+F 1 "2V4" V 2872 4597 60  0000 R CNN
+F 2 "footprints:SOD-123" H 3125 4900 60  0001 L CNN
+F 3 "" H 3125 5000 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 3125 5100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 3125 5200 60  0001 L CNN "MPN"
+	1    2925 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3025 4925 2925 4925
+Wire Wire Line
+	2925 4925 2925 4900
+Wire Wire Line
+	3025 4925 3025 3950
+Text Notes 3700 3125 0    75   ~ 0
+Line 4
+$Comp
+L Connector:RJ12 J?
+U 1 1 674B8F20
+P 3900 3550
+AR Path="/674B8F20" Ref="J?"  Part="1" 
+AR Path="/6743103A/674B8F20" Ref="J6"  Part="1" 
+F 0 "J6" V 4250 3275 50  0000 C CNN
+F 1 "RJ12" H 3570 3645 50  0001 R CNN
+F 2 "footprints:RJ_6p6c" V 3900 3575 50  0001 C CNN
+F 3 "~" V 3900 3575 50  0001 C CNN
+	1    3900 3550
+	0    -1   1    0   
+$EndComp
+Text Label 3900 4175 1    50   ~ 0
+Ring4
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8F29
+P 3800 4300
+AR Path="/674B8F29" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8F29" Ref="Z4"  Part="1" 
+F 0 "Z4" V 3725 4525 60  0000 R CNN
+F 1 "2V4" V 3825 4575 60  0000 R CNN
+F 2 "footprints:SOD-123" H 4000 4500 60  0001 L CNN
+F 3 "" H 4000 4600 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 4000 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 4000 4800 60  0001 L CNN "MPN"
+	1    3800 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8F31
+P 3800 4700
+AR Path="/674B8F31" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8F31" Ref="Z15"  Part="1" 
+F 0 "Z15" V 3853 4597 60  0000 R CNN
+F 1 "2V4" V 3747 4597 60  0000 R CNN
+F 2 "footprints:SOD-123" H 4000 4900 60  0001 L CNN
+F 3 "" H 4000 5000 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 4000 5100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 4000 5200 60  0001 L CNN "MPN"
+	1    3800 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 4925 3800 4925
+Wire Wire Line
+	3800 4925 3800 4900
+Wire Wire Line
+	3900 4925 3900 3950
+Text Notes 4575 3125 0    75   ~ 0
+Line 5
+$Comp
+L Connector:RJ12 J?
+U 1 1 674B8F3B
+P 4775 3550
+AR Path="/674B8F3B" Ref="J?"  Part="1" 
+AR Path="/6743103A/674B8F3B" Ref="J7"  Part="1" 
+F 0 "J7" V 5125 3275 50  0000 C CNN
+F 1 "RJ12" H 4445 3645 50  0001 R CNN
+F 2 "footprints:RJ_6p6c" V 4775 3575 50  0001 C CNN
+F 3 "~" V 4775 3575 50  0001 C CNN
+	1    4775 3550
+	0    -1   1    0   
+$EndComp
+Text Label 4775 4175 1    50   ~ 0
+Ring5
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8F44
+P 4675 4300
+AR Path="/674B8F44" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8F44" Ref="Z5"  Part="1" 
+F 0 "Z5" V 4600 4525 60  0000 R CNN
+F 1 "2V4" V 4700 4575 60  0000 R CNN
+F 2 "footprints:SOD-123" H 4875 4500 60  0001 L CNN
+F 3 "" H 4875 4600 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 4875 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 4875 4800 60  0001 L CNN "MPN"
+	1    4675 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8F4C
+P 4675 4700
+AR Path="/674B8F4C" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8F4C" Ref="Z16"  Part="1" 
+F 0 "Z16" V 4728 4597 60  0000 R CNN
+F 1 "2V4" V 4622 4597 60  0000 R CNN
+F 2 "footprints:SOD-123" H 4875 4900 60  0001 L CNN
+F 3 "" H 4875 5000 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 4875 5100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 4875 5200 60  0001 L CNN "MPN"
+	1    4675 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4775 4925 4675 4925
+Wire Wire Line
+	4675 4925 4675 4900
+Wire Wire Line
+	4775 4925 4775 3950
+Text Notes 5450 3125 0    75   ~ 0
+Line 6
+$Comp
+L Connector:RJ12 J?
+U 1 1 674B8F56
+P 5650 3550
+AR Path="/674B8F56" Ref="J?"  Part="1" 
+AR Path="/6743103A/674B8F56" Ref="J8"  Part="1" 
+F 0 "J8" V 6000 3275 50  0000 C CNN
+F 1 "RJ12" H 5320 3645 50  0001 R CNN
+F 2 "footprints:RJ_6p6c" V 5650 3575 50  0001 C CNN
+F 3 "~" V 5650 3575 50  0001 C CNN
+	1    5650 3550
+	0    -1   1    0   
+$EndComp
+Text Label 5650 4175 1    50   ~ 0
+Ring6
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8F5F
+P 5550 4300
+AR Path="/674B8F5F" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8F5F" Ref="Z6"  Part="1" 
+F 0 "Z6" V 5475 4525 60  0000 R CNN
+F 1 "2V4" V 5575 4575 60  0000 R CNN
+F 2 "footprints:SOD-123" H 5750 4500 60  0001 L CNN
+F 3 "" H 5750 4600 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 5750 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 5750 4800 60  0001 L CNN "MPN"
+	1    5550 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8F67
+P 5550 4700
+AR Path="/674B8F67" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8F67" Ref="Z17"  Part="1" 
+F 0 "Z17" V 5603 4597 60  0000 R CNN
+F 1 "2V4" V 5497 4597 60  0000 R CNN
+F 2 "footprints:SOD-123" H 5750 4900 60  0001 L CNN
+F 3 "" H 5750 5000 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 5750 5100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 5750 5200 60  0001 L CNN "MPN"
+	1    5550 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 4925 5550 4925
+Wire Wire Line
+	5550 4925 5550 4900
+Wire Wire Line
+	5650 4925 5650 3950
+Text Notes 6325 3125 0    75   ~ 0
+Line 7
+$Comp
+L Connector:RJ12 J?
+U 1 1 674B8F71
+P 6525 3550
+AR Path="/674B8F71" Ref="J?"  Part="1" 
+AR Path="/6743103A/674B8F71" Ref="J9"  Part="1" 
+F 0 "J9" V 6875 3275 50  0000 C CNN
+F 1 "RJ12" H 6195 3645 50  0001 R CNN
+F 2 "footprints:RJ_6p6c" V 6525 3575 50  0001 C CNN
+F 3 "~" V 6525 3575 50  0001 C CNN
+	1    6525 3550
+	0    -1   1    0   
+$EndComp
+Text Label 6525 4175 1    50   ~ 0
+Ring7
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8F7A
+P 6425 4300
+AR Path="/674B8F7A" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8F7A" Ref="Z7"  Part="1" 
+F 0 "Z7" V 6350 4525 60  0000 R CNN
+F 1 "2V4" V 6450 4575 60  0000 R CNN
+F 2 "footprints:SOD-123" H 6625 4500 60  0001 L CNN
+F 3 "" H 6625 4600 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 6625 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 6625 4800 60  0001 L CNN "MPN"
+	1    6425 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8F82
+P 6425 4700
+AR Path="/674B8F82" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8F82" Ref="Z18"  Part="1" 
+F 0 "Z18" V 6478 4597 60  0000 R CNN
+F 1 "2V4" V 6372 4597 60  0000 R CNN
+F 2 "footprints:SOD-123" H 6625 4900 60  0001 L CNN
+F 3 "" H 6625 5000 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 6625 5100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 6625 5200 60  0001 L CNN "MPN"
+	1    6425 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6525 4925 6425 4925
+Wire Wire Line
+	6425 4925 6425 4900
+Wire Wire Line
+	6525 4925 6525 3950
+Text Notes 7200 3125 0    75   ~ 0
+Line 8
+$Comp
+L Connector:RJ12 J?
+U 1 1 674B8F8C
+P 7400 3550
+AR Path="/674B8F8C" Ref="J?"  Part="1" 
+AR Path="/6743103A/674B8F8C" Ref="J10"  Part="1" 
+F 0 "J10" V 7750 3275 50  0000 C CNN
+F 1 "RJ12" H 7070 3645 50  0001 R CNN
+F 2 "footprints:RJ_6p6c" V 7400 3575 50  0001 C CNN
+F 3 "~" V 7400 3575 50  0001 C CNN
+	1    7400 3550
+	0    -1   1    0   
+$EndComp
+Text Label 7400 4175 1    50   ~ 0
+Ring8
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8F95
+P 7300 4300
+AR Path="/674B8F95" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8F95" Ref="Z8"  Part="1" 
+F 0 "Z8" V 7225 4525 60  0000 R CNN
+F 1 "2V4" V 7325 4575 60  0000 R CNN
+F 2 "footprints:SOD-123" H 7500 4500 60  0001 L CNN
+F 3 "" H 7500 4600 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 7500 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 7500 4800 60  0001 L CNN "MPN"
+	1    7300 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 674B8F9D
+P 7300 4700
+AR Path="/674B8F9D" Ref="Z?"  Part="1" 
+AR Path="/6743103A/674B8F9D" Ref="Z19"  Part="1" 
+F 0 "Z19" V 7353 4597 60  0000 R CNN
+F 1 "2V4" V 7247 4597 60  0000 R CNN
+F 2 "footprints:SOD-123" H 7500 4900 60  0001 L CNN
+F 3 "" H 7500 5000 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 7500 5100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 7500 5200 60  0001 L CNN "MPN"
+	1    7300 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 4925 7300 4925
+Wire Wire Line
+	7300 4925 7300 4900
+Wire Wire Line
+	7400 4925 7400 3950
+Wire Wire Line
+	1175 3950 1175 4100
+Connection ~ 1175 4100
+Wire Wire Line
+	2050 3950 2050 4100
+Wire Wire Line
+	2925 3950 2925 4100
+Wire Wire Line
+	3800 3950 3800 4100
+Wire Wire Line
+	4675 3950 4675 4100
+Wire Wire Line
+	5550 3950 5550 4100
+Wire Wire Line
+	6425 3950 6425 4100
+Wire Wire Line
+	7300 3950 7300 4100
+$Comp
+L power:GNDREF #PWR?
+U 1 1 674B8FAF
+P 1700 4175
+AR Path="/674B8FAF" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/674B8FAF" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 1700 3925 50  0001 C CNN
+F 1 "GNDREF" H 1705 4002 50  0001 C CNN
+F 2 "" H 1700 4175 50  0001 C CNN
+F 3 "" H 1700 4175 50  0001 C CNN
+	1    1700 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4175 1700 4100
+Wire Wire Line
+	1700 4100 2050 4100
+Connection ~ 2050 4100
+$Comp
+L power:GNDREF #PWR?
+U 1 1 674B8FB8
+P 2575 4175
+AR Path="/674B8FB8" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/674B8FB8" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 2575 3925 50  0001 C CNN
+F 1 "GNDREF" H 2580 4002 50  0001 C CNN
+F 2 "" H 2575 4175 50  0001 C CNN
+F 3 "" H 2575 4175 50  0001 C CNN
+	1    2575 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2575 4175 2575 4100
+Wire Wire Line
+	2575 4100 2925 4100
+Connection ~ 2925 4100
+$Comp
+L power:GNDREF #PWR?
+U 1 1 674B8FC1
+P 3450 4175
+AR Path="/674B8FC1" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/674B8FC1" Ref="#PWR087"  Part="1" 
+F 0 "#PWR087" H 3450 3925 50  0001 C CNN
+F 1 "GNDREF" H 3455 4002 50  0001 C CNN
+F 2 "" H 3450 4175 50  0001 C CNN
+F 3 "" H 3450 4175 50  0001 C CNN
+	1    3450 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4175 3450 4100
+Wire Wire Line
+	3450 4100 3800 4100
+Connection ~ 3800 4100
+$Comp
+L power:GNDREF #PWR?
+U 1 1 674B8FCA
+P 4325 4175
+AR Path="/674B8FCA" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/674B8FCA" Ref="#PWR088"  Part="1" 
+F 0 "#PWR088" H 4325 3925 50  0001 C CNN
+F 1 "GNDREF" H 4330 4002 50  0001 C CNN
+F 2 "" H 4325 4175 50  0001 C CNN
+F 3 "" H 4325 4175 50  0001 C CNN
+	1    4325 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 4175 4325 4100
+Wire Wire Line
+	4325 4100 4675 4100
+Connection ~ 4675 4100
+$Comp
+L power:GNDREF #PWR?
+U 1 1 674B8FD3
+P 5200 4175
+AR Path="/674B8FD3" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/674B8FD3" Ref="#PWR089"  Part="1" 
+F 0 "#PWR089" H 5200 3925 50  0001 C CNN
+F 1 "GNDREF" H 5205 4002 50  0001 C CNN
+F 2 "" H 5200 4175 50  0001 C CNN
+F 3 "" H 5200 4175 50  0001 C CNN
+	1    5200 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4175 5200 4100
+Wire Wire Line
+	5200 4100 5550 4100
+Connection ~ 5550 4100
+$Comp
+L power:GNDREF #PWR?
+U 1 1 674B8FDC
+P 6075 4175
+AR Path="/674B8FDC" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/674B8FDC" Ref="#PWR090"  Part="1" 
+F 0 "#PWR090" H 6075 3925 50  0001 C CNN
+F 1 "GNDREF" H 6080 4002 50  0001 C CNN
+F 2 "" H 6075 4175 50  0001 C CNN
+F 3 "" H 6075 4175 50  0001 C CNN
+	1    6075 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6075 4175 6075 4100
+Wire Wire Line
+	6075 4100 6425 4100
+Connection ~ 6425 4100
+$Comp
+L power:GNDREF #PWR?
+U 1 1 674B8FE5
+P 6950 4175
+AR Path="/674B8FE5" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/674B8FE5" Ref="#PWR091"  Part="1" 
+F 0 "#PWR091" H 6950 3925 50  0001 C CNN
+F 1 "GNDREF" H 6955 4002 50  0001 C CNN
+F 2 "" H 6950 4175 50  0001 C CNN
+F 3 "" H 6950 4175 50  0001 C CNN
+	1    6950 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4175 6950 4100
+Wire Wire Line
+	6950 4100 7300 4100
+Connection ~ 7300 4100
+Connection ~ 4675 4925
+Connection ~ 5550 4925
+Connection ~ 6425 4925
+Connection ~ 7300 4925
+Connection ~ 3900 4925
+Connection ~ 3025 4925
+Connection ~ 2150 4925
+Connection ~ 1275 4925
+Text Notes 7275 4100 2    50   ~ 0
+Tip8
+Text Notes 6375 4100 2    50   ~ 0
+Tip7
+Text Notes 5500 4100 2    50   ~ 0
+Tip6
+Text Notes 4625 4100 2    50   ~ 0
+Tip5
+Text Notes 3750 4100 2    50   ~ 0
+Tip4
+Text Notes 2875 4100 2    50   ~ 0
+Tip3
+Text Notes 2000 4100 2    50   ~ 0
+Tip2
+Text Notes 1125 4100 2    50   ~ 0
+Tip1
+$Comp
+L LED:SK6812MINI D?
+U 1 1 6752EC3F
+P 1225 2425
+AR Path="/6752EC3F" Ref="D?"  Part="1" 
+AR Path="/6743103A/6752EC3F" Ref="D2"  Part="1" 
+F 0 "D2" H 1000 2675 50  0000 L CNN
+F 1 "SK6812MINI" H 675 2150 50  0000 L CNN
+F 2 "footprints:LED_SK6812MINI_4_3.5x3.5mm_P1.75mm" H 1275 2125 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1325 2050 50  0001 L TNN
+	1    1225 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6752EC45
+P 1225 2725
+AR Path="/6752EC45" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/6752EC45" Ref="#PWR073"  Part="1" 
+F 0 "#PWR073" H 1225 2475 50  0001 C CNN
+F 1 "GNDREF" H 1230 2552 50  0001 C CNN
+F 2 "" H 1225 2725 50  0001 C CNN
+F 3 "" H 1225 2725 50  0001 C CNN
+	1    1225 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6752EC4B
+P 1225 2025
+AR Path="/6752EC4B" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/6752EC4B" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 1225 1875 50  0001 C CNN
+F 1 "+5V" H 1175 2175 50  0000 C CNN
+F 2 "" H 1225 2025 50  0001 C CNN
+F 3 "" H 1225 2025 50  0001 C CNN
+	1    1225 2025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6752EC52
+P 900 2075
+AR Path="/6752EC52" Ref="C?"  Part="1" 
+AR Path="/6743103A/6752EC52" Ref="C14"  Part="1" 
+F 0 "C14" V 850 2200 50  0000 C CNN
+F 1 "100nF" V 850 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 900 2075 50  0001 C CNN
+F 3 "~" H 900 2075 50  0001 C CNN
+	1    900  2075
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6752EC5E
+P 725 2125
+AR Path="/6752EC5E" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/6752EC5E" Ref="#PWR062"  Part="1" 
+F 0 "#PWR062" H 725 1875 50  0001 C CNN
+F 1 "GNDREF" H 730 1952 50  0001 C CNN
+F 2 "" H 725 2125 50  0001 C CNN
+F 3 "" H 725 2125 50  0001 C CNN
+	1    725  2125
+	1    0    0    -1  
+$EndComp
+Text HLabel 1025 1175 0    50   Input ~ 0
+Gnd
+$Comp
+L power:GNDREF #PWR?
+U 1 1 675AED8D
+P 1075 1225
+AR Path="/675AED8D" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/675AED8D" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 1075 975 50  0001 C CNN
+F 1 "GNDREF" H 1080 1052 50  0001 C CNN
+F 2 "" H 1075 1225 50  0001 C CNN
+F 3 "" H 1075 1225 50  0001 C CNN
+	1    1075 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 1175 1075 1175
+Wire Wire Line
+	1075 1175 1075 1225
+Text HLabel 1050 5625 0    50   Input ~ 0
+Slot1
+Text HLabel 1050 5725 0    50   Input ~ 0
+Slot2
+Text HLabel 1050 5825 0    50   Input ~ 0
+Slot3
+Text HLabel 1050 5925 0    50   Input ~ 0
+Slot4
+Text HLabel 1050 6025 0    50   Input ~ 0
+Slot5
+Text HLabel 1050 6125 0    50   Input ~ 0
+Slot6
+Text HLabel 1050 6225 0    50   Input ~ 0
+Slot7
+Text HLabel 1050 6325 0    50   Input ~ 0
+Slot8
+Text HLabel 1050 6425 0    50   Input ~ 0
+Trunk1
+Text HLabel 1050 6525 0    50   Input ~ 0
+Trunk2
+Text HLabel 1050 6625 0    50   Input ~ 0
+Trunk3
+Text HLabel 1025 1075 0    50   Input ~ 0
+LED_Data
+Wire Wire Line
+	1050 5625 1275 5625
+Wire Wire Line
+	1275 4925 1275 5625
+Wire Wire Line
+	1050 5725 2150 5725
+Wire Wire Line
+	2150 4925 2150 5725
+Wire Wire Line
+	1050 5825 3025 5825
+Wire Wire Line
+	3025 4925 3025 5825
+Wire Wire Line
+	1050 5925 3900 5925
+Wire Wire Line
+	3900 4925 3900 5925
+Wire Wire Line
+	4675 6025 1050 6025
+Wire Wire Line
+	4675 4925 4675 6025
+Wire Wire Line
+	1050 6125 5550 6125
+Wire Wire Line
+	5550 4925 5550 6125
+Wire Wire Line
+	6425 6225 1050 6225
+Wire Wire Line
+	6425 4925 6425 6225
+Wire Wire Line
+	1050 6325 7300 6325
+Wire Wire Line
+	7300 4925 7300 6325
+Wire Wire Line
+	1050 6425 8175 6425
+Wire Wire Line
+	1050 6525 9050 6525
+Wire Wire Line
+	10025 4925 9925 4925
+Wire Wire Line
+	800  2075 725  2075
+Wire Wire Line
+	725  2075 725  2125
+Wire Wire Line
+	1000 2075 1225 2075
+Wire Wire Line
+	1225 2075 1225 2025
+Wire Wire Line
+	1225 2125 1225 2075
+Connection ~ 1225 2075
+$Comp
+L LED:SK6812MINI D?
+U 1 1 677AFE9A
+P 2100 2425
+AR Path="/677AFE9A" Ref="D?"  Part="1" 
+AR Path="/6743103A/677AFE9A" Ref="D3"  Part="1" 
+F 0 "D3" H 1875 2675 50  0000 L CNN
+F 1 "SK6812MINI" H 1550 2150 50  0000 L CNN
+F 2 "footprints:LED_SK6812MINI_4_3.5x3.5mm_P1.75mm" H 2150 2125 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2200 2050 50  0001 L TNN
+	1    2100 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677AFEA4
+P 2100 2725
+AR Path="/677AFEA4" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677AFEA4" Ref="#PWR074"  Part="1" 
+F 0 "#PWR074" H 2100 2475 50  0001 C CNN
+F 1 "GNDREF" H 2105 2552 50  0001 C CNN
+F 2 "" H 2100 2725 50  0001 C CNN
+F 3 "" H 2100 2725 50  0001 C CNN
+	1    2100 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 677AFEAE
+P 2100 2025
+AR Path="/677AFEAE" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677AFEAE" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 2100 1875 50  0001 C CNN
+F 1 "+5V" H 2050 2175 50  0000 C CNN
+F 2 "" H 2100 2025 50  0001 C CNN
+F 3 "" H 2100 2025 50  0001 C CNN
+	1    2100 2025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 677AFEB9
+P 1775 2075
+AR Path="/677AFEB9" Ref="C?"  Part="1" 
+AR Path="/6743103A/677AFEB9" Ref="C15"  Part="1" 
+F 0 "C15" V 1725 2200 50  0000 C CNN
+F 1 "100nF" V 1725 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1775 2075 50  0001 C CNN
+F 3 "~" H 1775 2075 50  0001 C CNN
+	1    1775 2075
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677AFEC3
+P 1600 2125
+AR Path="/677AFEC3" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677AFEC3" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 1600 1875 50  0001 C CNN
+F 1 "GNDREF" H 1605 1952 50  0001 C CNN
+F 2 "" H 1600 2125 50  0001 C CNN
+F 3 "" H 1600 2125 50  0001 C CNN
+	1    1600 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 2075 1600 2075
+Wire Wire Line
+	1600 2075 1600 2125
+Wire Wire Line
+	1875 2075 2100 2075
+Wire Wire Line
+	2100 2075 2100 2025
+Wire Wire Line
+	2100 2125 2100 2075
+Connection ~ 2100 2075
+$Comp
+L LED:SK6812MINI D?
+U 1 1 677DA967
+P 2975 2425
+AR Path="/677DA967" Ref="D?"  Part="1" 
+AR Path="/6743103A/677DA967" Ref="D4"  Part="1" 
+F 0 "D4" H 2750 2675 50  0000 L CNN
+F 1 "SK6812MINI" H 2425 2150 50  0000 L CNN
+F 2 "footprints:LED_SK6812MINI_4_3.5x3.5mm_P1.75mm" H 3025 2125 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3075 2050 50  0001 L TNN
+	1    2975 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677DA971
+P 2975 2725
+AR Path="/677DA971" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677DA971" Ref="#PWR075"  Part="1" 
+F 0 "#PWR075" H 2975 2475 50  0001 C CNN
+F 1 "GNDREF" H 2980 2552 50  0001 C CNN
+F 2 "" H 2975 2725 50  0001 C CNN
+F 3 "" H 2975 2725 50  0001 C CNN
+	1    2975 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 677DA97B
+P 2975 2025
+AR Path="/677DA97B" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677DA97B" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 2975 1875 50  0001 C CNN
+F 1 "+5V" H 2925 2175 50  0000 C CNN
+F 2 "" H 2975 2025 50  0001 C CNN
+F 3 "" H 2975 2025 50  0001 C CNN
+	1    2975 2025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 677DA986
+P 2650 2075
+AR Path="/677DA986" Ref="C?"  Part="1" 
+AR Path="/6743103A/677DA986" Ref="C16"  Part="1" 
+F 0 "C16" V 2600 2200 50  0000 C CNN
+F 1 "100nF" V 2600 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2650 2075 50  0001 C CNN
+F 3 "~" H 2650 2075 50  0001 C CNN
+	1    2650 2075
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677DA990
+P 2450 2125
+AR Path="/677DA990" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677DA990" Ref="#PWR064"  Part="1" 
+F 0 "#PWR064" H 2450 1875 50  0001 C CNN
+F 1 "GNDREF" H 2455 1952 50  0001 C CNN
+F 2 "" H 2450 2125 50  0001 C CNN
+F 3 "" H 2450 2125 50  0001 C CNN
+	1    2450 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2075 2450 2125
+Wire Wire Line
+	2750 2075 2975 2075
+Wire Wire Line
+	2975 2075 2975 2025
+Wire Wire Line
+	2975 2125 2975 2075
+Connection ~ 2975 2075
+$Comp
+L LED:SK6812MINI D?
+U 1 1 677DA9A0
+P 3850 2425
+AR Path="/677DA9A0" Ref="D?"  Part="1" 
+AR Path="/6743103A/677DA9A0" Ref="D5"  Part="1" 
+F 0 "D5" H 3625 2675 50  0000 L CNN
+F 1 "SK6812MINI" H 3300 2150 50  0000 L CNN
+F 2 "footprints:LED_SK6812MINI_4_3.5x3.5mm_P1.75mm" H 3900 2125 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3950 2050 50  0001 L TNN
+	1    3850 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677DA9AA
+P 3850 2725
+AR Path="/677DA9AA" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677DA9AA" Ref="#PWR076"  Part="1" 
+F 0 "#PWR076" H 3850 2475 50  0001 C CNN
+F 1 "GNDREF" H 3855 2552 50  0001 C CNN
+F 2 "" H 3850 2725 50  0001 C CNN
+F 3 "" H 3850 2725 50  0001 C CNN
+	1    3850 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 677DA9B4
+P 3850 2025
+AR Path="/677DA9B4" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677DA9B4" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 3850 1875 50  0001 C CNN
+F 1 "+5V" H 3800 2175 50  0000 C CNN
+F 2 "" H 3850 2025 50  0001 C CNN
+F 3 "" H 3850 2025 50  0001 C CNN
+	1    3850 2025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 677DA9BF
+P 3525 2075
+AR Path="/677DA9BF" Ref="C?"  Part="1" 
+AR Path="/6743103A/677DA9BF" Ref="C17"  Part="1" 
+F 0 "C17" V 3475 2200 50  0000 C CNN
+F 1 "100nF" V 3475 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3525 2075 50  0001 C CNN
+F 3 "~" H 3525 2075 50  0001 C CNN
+	1    3525 2075
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677DA9C9
+P 3350 2125
+AR Path="/677DA9C9" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677DA9C9" Ref="#PWR065"  Part="1" 
+F 0 "#PWR065" H 3350 1875 50  0001 C CNN
+F 1 "GNDREF" H 3355 1952 50  0001 C CNN
+F 2 "" H 3350 2125 50  0001 C CNN
+F 3 "" H 3350 2125 50  0001 C CNN
+	1    3350 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 2075 3350 2075
+Wire Wire Line
+	3350 2075 3350 2125
+Wire Wire Line
+	3625 2075 3850 2075
+Wire Wire Line
+	3850 2075 3850 2025
+Wire Wire Line
+	3850 2125 3850 2075
+Connection ~ 3850 2075
+$Comp
+L LED:SK6812MINI D?
+U 1 1 677F1629
+P 4725 2425
+AR Path="/677F1629" Ref="D?"  Part="1" 
+AR Path="/6743103A/677F1629" Ref="D6"  Part="1" 
+F 0 "D6" H 4500 2675 50  0000 L CNN
+F 1 "SK6812MINI" H 4175 2150 50  0000 L CNN
+F 2 "footprints:LED_SK6812MINI_4_3.5x3.5mm_P1.75mm" H 4775 2125 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4825 2050 50  0001 L TNN
+	1    4725 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677F1633
+P 4725 2725
+AR Path="/677F1633" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677F1633" Ref="#PWR077"  Part="1" 
+F 0 "#PWR077" H 4725 2475 50  0001 C CNN
+F 1 "GNDREF" H 4730 2552 50  0001 C CNN
+F 2 "" H 4725 2725 50  0001 C CNN
+F 3 "" H 4725 2725 50  0001 C CNN
+	1    4725 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 677F163D
+P 4725 2025
+AR Path="/677F163D" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677F163D" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 4725 1875 50  0001 C CNN
+F 1 "+5V" H 4675 2175 50  0000 C CNN
+F 2 "" H 4725 2025 50  0001 C CNN
+F 3 "" H 4725 2025 50  0001 C CNN
+	1    4725 2025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 677F1648
+P 4400 2075
+AR Path="/677F1648" Ref="C?"  Part="1" 
+AR Path="/6743103A/677F1648" Ref="C18"  Part="1" 
+F 0 "C18" V 4350 2200 50  0000 C CNN
+F 1 "100nF" V 4350 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 2075 50  0001 C CNN
+F 3 "~" H 4400 2075 50  0001 C CNN
+	1    4400 2075
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677F1652
+P 4225 2125
+AR Path="/677F1652" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677F1652" Ref="#PWR066"  Part="1" 
+F 0 "#PWR066" H 4225 1875 50  0001 C CNN
+F 1 "GNDREF" H 4230 1952 50  0001 C CNN
+F 2 "" H 4225 2125 50  0001 C CNN
+F 3 "" H 4225 2125 50  0001 C CNN
+	1    4225 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2075 4225 2075
+Wire Wire Line
+	4225 2075 4225 2125
+Wire Wire Line
+	4500 2075 4725 2075
+Wire Wire Line
+	4725 2075 4725 2025
+Wire Wire Line
+	4725 2125 4725 2075
+Connection ~ 4725 2075
+$Comp
+L LED:SK6812MINI D?
+U 1 1 677F1662
+P 5600 2425
+AR Path="/677F1662" Ref="D?"  Part="1" 
+AR Path="/6743103A/677F1662" Ref="D7"  Part="1" 
+F 0 "D7" H 5375 2675 50  0000 L CNN
+F 1 "SK6812MINI" H 5050 2150 50  0000 L CNN
+F 2 "footprints:LED_SK6812MINI_4_3.5x3.5mm_P1.75mm" H 5650 2125 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5700 2050 50  0001 L TNN
+	1    5600 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677F166C
+P 5600 2725
+AR Path="/677F166C" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677F166C" Ref="#PWR078"  Part="1" 
+F 0 "#PWR078" H 5600 2475 50  0001 C CNN
+F 1 "GNDREF" H 5605 2552 50  0001 C CNN
+F 2 "" H 5600 2725 50  0001 C CNN
+F 3 "" H 5600 2725 50  0001 C CNN
+	1    5600 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 677F1676
+P 5600 2025
+AR Path="/677F1676" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677F1676" Ref="#PWR056"  Part="1" 
+F 0 "#PWR056" H 5600 1875 50  0001 C CNN
+F 1 "+5V" H 5550 2175 50  0000 C CNN
+F 2 "" H 5600 2025 50  0001 C CNN
+F 3 "" H 5600 2025 50  0001 C CNN
+	1    5600 2025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 677F1681
+P 5275 2075
+AR Path="/677F1681" Ref="C?"  Part="1" 
+AR Path="/6743103A/677F1681" Ref="C19"  Part="1" 
+F 0 "C19" V 5225 2200 50  0000 C CNN
+F 1 "100nF" V 5225 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5275 2075 50  0001 C CNN
+F 3 "~" H 5275 2075 50  0001 C CNN
+	1    5275 2075
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677F168B
+P 5100 2125
+AR Path="/677F168B" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677F168B" Ref="#PWR067"  Part="1" 
+F 0 "#PWR067" H 5100 1875 50  0001 C CNN
+F 1 "GNDREF" H 5105 1952 50  0001 C CNN
+F 2 "" H 5100 2125 50  0001 C CNN
+F 3 "" H 5100 2125 50  0001 C CNN
+	1    5100 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5175 2075 5100 2075
+Wire Wire Line
+	5100 2075 5100 2125
+Wire Wire Line
+	5375 2075 5600 2075
+Wire Wire Line
+	5600 2075 5600 2025
+Wire Wire Line
+	5600 2125 5600 2075
+Connection ~ 5600 2075
+$Comp
+L LED:SK6812MINI D?
+U 1 1 677F169B
+P 6475 2425
+AR Path="/677F169B" Ref="D?"  Part="1" 
+AR Path="/6743103A/677F169B" Ref="D8"  Part="1" 
+F 0 "D8" H 6250 2675 50  0000 L CNN
+F 1 "SK6812MINI" H 5925 2150 50  0000 L CNN
+F 2 "footprints:LED_SK6812MINI_4_3.5x3.5mm_P1.75mm" H 6525 2125 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6575 2050 50  0001 L TNN
+	1    6475 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677F16A5
+P 6475 2725
+AR Path="/677F16A5" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677F16A5" Ref="#PWR079"  Part="1" 
+F 0 "#PWR079" H 6475 2475 50  0001 C CNN
+F 1 "GNDREF" H 6480 2552 50  0001 C CNN
+F 2 "" H 6475 2725 50  0001 C CNN
+F 3 "" H 6475 2725 50  0001 C CNN
+	1    6475 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 677F16AF
+P 6475 2025
+AR Path="/677F16AF" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677F16AF" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 6475 1875 50  0001 C CNN
+F 1 "+5V" H 6425 2175 50  0000 C CNN
+F 2 "" H 6475 2025 50  0001 C CNN
+F 3 "" H 6475 2025 50  0001 C CNN
+	1    6475 2025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 677F16BA
+P 6150 2075
+AR Path="/677F16BA" Ref="C?"  Part="1" 
+AR Path="/6743103A/677F16BA" Ref="C20"  Part="1" 
+F 0 "C20" V 6100 2200 50  0000 C CNN
+F 1 "100nF" V 6100 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 2075 50  0001 C CNN
+F 3 "~" H 6150 2075 50  0001 C CNN
+	1    6150 2075
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677F16C4
+P 5950 2125
+AR Path="/677F16C4" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677F16C4" Ref="#PWR068"  Part="1" 
+F 0 "#PWR068" H 5950 1875 50  0001 C CNN
+F 1 "GNDREF" H 5955 1952 50  0001 C CNN
+F 2 "" H 5950 2125 50  0001 C CNN
+F 3 "" H 5950 2125 50  0001 C CNN
+	1    5950 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2075 5950 2125
+Wire Wire Line
+	6250 2075 6475 2075
+Wire Wire Line
+	6475 2075 6475 2025
+Wire Wire Line
+	6475 2125 6475 2075
+Connection ~ 6475 2075
+$Comp
+L LED:SK6812MINI D?
+U 1 1 677F16D4
+P 7350 2425
+AR Path="/677F16D4" Ref="D?"  Part="1" 
+AR Path="/6743103A/677F16D4" Ref="D9"  Part="1" 
+F 0 "D9" H 7125 2675 50  0000 L CNN
+F 1 "SK6812MINI" H 6800 2150 50  0000 L CNN
+F 2 "footprints:LED_SK6812MINI_4_3.5x3.5mm_P1.75mm" H 7400 2125 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7450 2050 50  0001 L TNN
+	1    7350 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677F16DE
+P 7350 2725
+AR Path="/677F16DE" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677F16DE" Ref="#PWR080"  Part="1" 
+F 0 "#PWR080" H 7350 2475 50  0001 C CNN
+F 1 "GNDREF" H 7355 2552 50  0001 C CNN
+F 2 "" H 7350 2725 50  0001 C CNN
+F 3 "" H 7350 2725 50  0001 C CNN
+	1    7350 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 677F16E8
+P 7350 2025
+AR Path="/677F16E8" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677F16E8" Ref="#PWR058"  Part="1" 
+F 0 "#PWR058" H 7350 1875 50  0001 C CNN
+F 1 "+5V" H 7300 2175 50  0000 C CNN
+F 2 "" H 7350 2025 50  0001 C CNN
+F 3 "" H 7350 2025 50  0001 C CNN
+	1    7350 2025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 677F16F3
+P 7025 2075
+AR Path="/677F16F3" Ref="C?"  Part="1" 
+AR Path="/6743103A/677F16F3" Ref="C21"  Part="1" 
+F 0 "C21" V 6975 2200 50  0000 C CNN
+F 1 "100nF" V 6975 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7025 2075 50  0001 C CNN
+F 3 "~" H 7025 2075 50  0001 C CNN
+	1    7025 2075
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 677F16FD
+P 6850 2125
+AR Path="/677F16FD" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/677F16FD" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 6850 1875 50  0001 C CNN
+F 1 "GNDREF" H 6855 1952 50  0001 C CNN
+F 2 "" H 6850 2125 50  0001 C CNN
+F 3 "" H 6850 2125 50  0001 C CNN
+	1    6850 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6925 2075 6850 2075
+Wire Wire Line
+	6850 2075 6850 2125
+Wire Wire Line
+	7125 2075 7350 2075
+Wire Wire Line
+	7350 2075 7350 2025
+Wire Wire Line
+	7350 2125 7350 2075
+Connection ~ 7350 2075
+$Comp
+L LED:SK6812MINI D?
+U 1 1 67817C7C
+P 8225 2425
+AR Path="/67817C7C" Ref="D?"  Part="1" 
+AR Path="/6743103A/67817C7C" Ref="D10"  Part="1" 
+F 0 "D10" H 8000 2675 50  0000 L CNN
+F 1 "SK6812MINI" H 7675 2150 50  0000 L CNN
+F 2 "footprints:LED_SK6812MINI_4_3.5x3.5mm_P1.75mm" H 8275 2125 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8325 2050 50  0001 L TNN
+	1    8225 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 67817C86
+P 8225 2725
+AR Path="/67817C86" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/67817C86" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 8225 2475 50  0001 C CNN
+F 1 "GNDREF" H 8230 2552 50  0001 C CNN
+F 2 "" H 8225 2725 50  0001 C CNN
+F 3 "" H 8225 2725 50  0001 C CNN
+	1    8225 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 67817C90
+P 8225 2025
+AR Path="/67817C90" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/67817C90" Ref="#PWR059"  Part="1" 
+F 0 "#PWR059" H 8225 1875 50  0001 C CNN
+F 1 "+5V" H 8175 2175 50  0000 C CNN
+F 2 "" H 8225 2025 50  0001 C CNN
+F 3 "" H 8225 2025 50  0001 C CNN
+	1    8225 2025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 67817C9B
+P 7900 2075
+AR Path="/67817C9B" Ref="C?"  Part="1" 
+AR Path="/6743103A/67817C9B" Ref="C22"  Part="1" 
+F 0 "C22" V 7850 2200 50  0000 C CNN
+F 1 "100nF" V 7850 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 2075 50  0001 C CNN
+F 3 "~" H 7900 2075 50  0001 C CNN
+	1    7900 2075
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 67817CA5
+P 7725 2125
+AR Path="/67817CA5" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/67817CA5" Ref="#PWR070"  Part="1" 
+F 0 "#PWR070" H 7725 1875 50  0001 C CNN
+F 1 "GNDREF" H 7730 1952 50  0001 C CNN
+F 2 "" H 7725 2125 50  0001 C CNN
+F 3 "" H 7725 2125 50  0001 C CNN
+	1    7725 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2075 7725 2075
+Wire Wire Line
+	7725 2075 7725 2125
+Wire Wire Line
+	8000 2075 8225 2075
+Wire Wire Line
+	8225 2075 8225 2025
+Wire Wire Line
+	8225 2125 8225 2075
+Connection ~ 8225 2075
+$Comp
+L LED:SK6812MINI D?
+U 1 1 67817CB5
+P 9100 2425
+AR Path="/67817CB5" Ref="D?"  Part="1" 
+AR Path="/6743103A/67817CB5" Ref="D11"  Part="1" 
+F 0 "D11" H 8875 2675 50  0000 L CNN
+F 1 "SK6812MINI" H 8550 2150 50  0000 L CNN
+F 2 "footprints:LED_SK6812MINI_4_3.5x3.5mm_P1.75mm" H 9150 2125 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 9200 2050 50  0001 L TNN
+	1    9100 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 67817CBF
+P 9100 2725
+AR Path="/67817CBF" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/67817CBF" Ref="#PWR082"  Part="1" 
+F 0 "#PWR082" H 9100 2475 50  0001 C CNN
+F 1 "GNDREF" H 9105 2552 50  0001 C CNN
+F 2 "" H 9100 2725 50  0001 C CNN
+F 3 "" H 9100 2725 50  0001 C CNN
+	1    9100 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 67817CC9
+P 9100 2025
+AR Path="/67817CC9" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/67817CC9" Ref="#PWR060"  Part="1" 
+F 0 "#PWR060" H 9100 1875 50  0001 C CNN
+F 1 "+5V" H 9050 2175 50  0000 C CNN
+F 2 "" H 9100 2025 50  0001 C CNN
+F 3 "" H 9100 2025 50  0001 C CNN
+	1    9100 2025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 67817CD4
+P 8775 2075
+AR Path="/67817CD4" Ref="C?"  Part="1" 
+AR Path="/6743103A/67817CD4" Ref="C23"  Part="1" 
+F 0 "C23" V 8725 2200 50  0000 C CNN
+F 1 "100nF" V 8725 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8775 2075 50  0001 C CNN
+F 3 "~" H 8775 2075 50  0001 C CNN
+	1    8775 2075
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 67817CDE
+P 8575 2125
+AR Path="/67817CDE" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/67817CDE" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 8575 1875 50  0001 C CNN
+F 1 "GNDREF" H 8580 1952 50  0001 C CNN
+F 2 "" H 8575 2125 50  0001 C CNN
+F 3 "" H 8575 2125 50  0001 C CNN
+	1    8575 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 2075 8575 2125
+Wire Wire Line
+	8875 2075 9100 2075
+Wire Wire Line
+	9100 2075 9100 2025
+Wire Wire Line
+	9100 2125 9100 2075
+Connection ~ 9100 2075
+$Comp
+L LED:SK6812MINI D?
+U 1 1 67817CEE
+P 9975 2425
+AR Path="/67817CEE" Ref="D?"  Part="1" 
+AR Path="/6743103A/67817CEE" Ref="D12"  Part="1" 
+F 0 "D12" H 9750 2675 50  0000 L CNN
+F 1 "SK6812MINI" H 9425 2150 50  0000 L CNN
+F 2 "footprints:LED_SK6812MINI_4_3.5x3.5mm_P1.75mm" H 10025 2125 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 10075 2050 50  0001 L TNN
+	1    9975 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 67817CF8
+P 9975 2725
+AR Path="/67817CF8" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/67817CF8" Ref="#PWR083"  Part="1" 
+F 0 "#PWR083" H 9975 2475 50  0001 C CNN
+F 1 "GNDREF" H 9980 2552 50  0001 C CNN
+F 2 "" H 9975 2725 50  0001 C CNN
+F 3 "" H 9975 2725 50  0001 C CNN
+	1    9975 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 67817D02
+P 9975 2025
+AR Path="/67817D02" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/67817D02" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 9975 1875 50  0001 C CNN
+F 1 "+5V" H 9925 2175 50  0000 C CNN
+F 2 "" H 9975 2025 50  0001 C CNN
+F 3 "" H 9975 2025 50  0001 C CNN
+	1    9975 2025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 67817D0D
+P 9650 2075
+AR Path="/67817D0D" Ref="C?"  Part="1" 
+AR Path="/6743103A/67817D0D" Ref="C24"  Part="1" 
+F 0 "C24" V 9600 2200 50  0000 C CNN
+F 1 "100nF" V 9600 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9650 2075 50  0001 C CNN
+F 3 "~" H 9650 2075 50  0001 C CNN
+	1    9650 2075
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 67817D17
+P 9475 2125
+AR Path="/67817D17" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/67817D17" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 9475 1875 50  0001 C CNN
+F 1 "GNDREF" H 9480 1952 50  0001 C CNN
+F 2 "" H 9475 2125 50  0001 C CNN
+F 3 "" H 9475 2125 50  0001 C CNN
+	1    9475 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 2075 9475 2075
+Wire Wire Line
+	9475 2075 9475 2125
+Wire Wire Line
+	9750 2075 9975 2075
+Wire Wire Line
+	9975 2075 9975 2025
+Wire Wire Line
+	9975 2125 9975 2075
+Connection ~ 9975 2075
+NoConn ~ 10275 2425
+Wire Wire Line
+	9400 2425 9675 2425
+Wire Wire Line
+	8525 2425 8800 2425
+Wire Wire Line
+	6775 2425 7050 2425
+Wire Wire Line
+	5900 2425 6175 2425
+Wire Wire Line
+	5025 2425 5300 2425
+Wire Wire Line
+	4150 2425 4425 2425
+Wire Wire Line
+	3275 2425 3550 2425
+Wire Wire Line
+	2400 2425 2675 2425
+Wire Wire Line
+	1525 2425 1800 2425
+Wire Wire Line
+	575  2425 575  1600
+Wire Wire Line
+	575  1600 1225 1600
+Wire Wire Line
+	1225 1600 1225 1075
+Wire Wire Line
+	1225 1075 1025 1075
+Wire Wire Line
+	575  2425 925  2425
+Text HLabel 1025 975  0    50   Input ~ 0
++5V
+$Comp
+L power:+5V #PWR?
+U 1 1 678ABDAC
+P 1100 925
+AR Path="/678ABDAC" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/678ABDAC" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 1100 775 50  0001 C CNN
+F 1 "+5V" H 1050 1075 50  0000 C CNN
+F 2 "" H 1100 925 50  0001 C CNN
+F 3 "" H 1100 925 50  0001 C CNN
+	1    1100 925 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 975  1100 975 
+Wire Wire Line
+	1100 975  1100 925 
+Text Notes 8075 3125 0    75   ~ 0
+Trunk 1\n
+$Comp
+L Connector:RJ12 J?
+U 1 1 678DB2DF
+P 8275 3550
+AR Path="/678DB2DF" Ref="J?"  Part="1" 
+AR Path="/6743103A/678DB2DF" Ref="J11"  Part="1" 
+F 0 "J11" V 8625 3275 50  0000 C CNN
+F 1 "RJ12" H 7945 3645 50  0001 R CNN
+F 2 "footprints:RJ_6p6c" V 8275 3575 50  0001 C CNN
+F 3 "~" V 8275 3575 50  0001 C CNN
+	1    8275 3550
+	0    -1   1    0   
+$EndComp
+Text Label 8275 4225 1    50   ~ 0
+RingT1
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 678DB2EC
+P 8175 4300
+AR Path="/678DB2EC" Ref="Z?"  Part="1" 
+AR Path="/6743103A/678DB2EC" Ref="Z9"  Part="1" 
+F 0 "Z9" V 8100 4525 60  0000 R CNN
+F 1 "2V4" V 8200 4575 60  0000 R CNN
+F 2 "footprints:SOD-123" H 8375 4500 60  0001 L CNN
+F 3 "" H 8375 4600 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 8375 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 8375 4800 60  0001 L CNN "MPN"
+	1    8175 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 678DB2F8
+P 8175 4700
+AR Path="/678DB2F8" Ref="Z?"  Part="1" 
+AR Path="/6743103A/678DB2F8" Ref="Z20"  Part="1" 
+F 0 "Z20" V 8228 4597 60  0000 R CNN
+F 1 "2V4" V 8122 4597 60  0000 R CNN
+F 2 "footprints:SOD-123" H 8375 4900 60  0001 L CNN
+F 3 "" H 8375 5000 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 8375 5100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 8375 5200 60  0001 L CNN "MPN"
+	1    8175 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8275 4925 8275 3950
+Text Notes 8950 3125 0    75   ~ 0
+Trunk 2
+$Comp
+L Connector:RJ12 J?
+U 1 1 678DB305
+P 9150 3550
+AR Path="/678DB305" Ref="J?"  Part="1" 
+AR Path="/6743103A/678DB305" Ref="J12"  Part="1" 
+F 0 "J12" V 9500 3275 50  0000 C CNN
+F 1 "RJ12" H 8820 3645 50  0001 R CNN
+F 2 "footprints:RJ_6p6c" V 9150 3575 50  0001 C CNN
+F 3 "~" V 9150 3575 50  0001 C CNN
+	1    9150 3550
+	0    -1   1    0   
+$EndComp
+Text Label 9150 4225 1    50   ~ 0
+RingT2
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 678DB312
+P 9050 4300
+AR Path="/678DB312" Ref="Z?"  Part="1" 
+AR Path="/6743103A/678DB312" Ref="Z10"  Part="1" 
+F 0 "Z10" V 8975 4525 60  0000 R CNN
+F 1 "2V4" V 9075 4575 60  0000 R CNN
+F 2 "footprints:SOD-123" H 9250 4500 60  0001 L CNN
+F 3 "" H 9250 4600 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 9250 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 9250 4800 60  0001 L CNN "MPN"
+	1    9050 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 678DB31E
+P 9050 4700
+AR Path="/678DB31E" Ref="Z?"  Part="1" 
+AR Path="/6743103A/678DB31E" Ref="Z21"  Part="1" 
+F 0 "Z21" V 9103 4597 60  0000 R CNN
+F 1 "2V4" V 8997 4597 60  0000 R CNN
+F 2 "footprints:SOD-123" H 9250 4900 60  0001 L CNN
+F 3 "" H 9250 5000 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 9250 5100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 9250 5200 60  0001 L CNN "MPN"
+	1    9050 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 4925 9150 3950
+Text Notes 9825 3125 0    75   ~ 0
+Trunk 3
+$Comp
+L Connector:RJ12 J?
+U 1 1 678DB32B
+P 10025 3550
+AR Path="/678DB32B" Ref="J?"  Part="1" 
+AR Path="/6743103A/678DB32B" Ref="J13"  Part="1" 
+F 0 "J13" V 10375 3275 50  0000 C CNN
+F 1 "RJ12" H 9695 3645 50  0001 R CNN
+F 2 "footprints:RJ_6p6c" V 10025 3575 50  0001 C CNN
+F 3 "~" V 10025 3575 50  0001 C CNN
+	1    10025 3550
+	0    -1   1    0   
+$EndComp
+Text Label 10025 4225 1    50   ~ 0
+RingT3
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 678DB338
+P 9925 4300
+AR Path="/678DB338" Ref="Z?"  Part="1" 
+AR Path="/6743103A/678DB338" Ref="Z11"  Part="1" 
+F 0 "Z11" V 9850 4525 60  0000 R CNN
+F 1 "2V4" V 9950 4575 60  0000 R CNN
+F 2 "footprints:SOD-123" H 10125 4500 60  0001 L CNN
+F 3 "" H 10125 4600 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 10125 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 10125 4800 60  0001 L CNN "MPN"
+	1    9925 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z?
+U 1 1 678DB344
+P 9925 4700
+AR Path="/678DB344" Ref="Z?"  Part="1" 
+AR Path="/6743103A/678DB344" Ref="Z22"  Part="1" 
+F 0 "Z22" V 9978 4597 60  0000 R CNN
+F 1 "2V4" V 9872 4597 60  0000 R CNN
+F 2 "footprints:SOD-123" H 10125 4900 60  0001 L CNN
+F 3 "" H 10125 5000 60  0001 L CNN
+F 4 "Diotec Semiconductor" H 10125 5100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ZMM3.3" H 10125 5200 60  0001 L CNN "MPN"
+	1    9925 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10025 4925 10025 3950
+Wire Wire Line
+	8175 3950 8175 4100
+Wire Wire Line
+	9050 3950 9050 4100
+Wire Wire Line
+	9925 3950 9925 4100
+Wire Wire Line
+	7825 4100 8175 4100
+Connection ~ 8175 4100
+$Comp
+L power:GNDREF #PWR?
+U 1 1 678DB355
+P 8700 4175
+AR Path="/678DB355" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/678DB355" Ref="#PWR092"  Part="1" 
+F 0 "#PWR092" H 8700 3925 50  0001 C CNN
+F 1 "GNDREF" H 8705 4002 50  0001 C CNN
+F 2 "" H 8700 4175 50  0001 C CNN
+F 3 "" H 8700 4175 50  0001 C CNN
+	1    8700 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4175 8700 4100
+Wire Wire Line
+	8700 4100 9050 4100
+Connection ~ 9050 4100
+$Comp
+L power:GNDREF #PWR?
+U 1 1 678DB362
+P 9575 4175
+AR Path="/678DB362" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/678DB362" Ref="#PWR093"  Part="1" 
+F 0 "#PWR093" H 9575 3925 50  0001 C CNN
+F 1 "GNDREF" H 9580 4002 50  0001 C CNN
+F 2 "" H 9575 4175 50  0001 C CNN
+F 3 "" H 9575 4175 50  0001 C CNN
+	1    9575 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9575 4175 9575 4100
+Wire Wire Line
+	9575 4100 9925 4100
+Connection ~ 9925 4100
+Text Notes 9900 4100 2    50   ~ 0
+TipT3
+Text Notes 9000 4100 2    50   ~ 0
+TipT2
+Text Notes 8125 4100 2    50   ~ 0
+TipT1
+Wire Wire Line
+	8175 4900 8175 4925
+Wire Wire Line
+	8175 4925 8275 4925
+Wire Wire Line
+	9050 4900 9050 4925
+Wire Wire Line
+	9050 4925 9150 4925
+Wire Wire Line
+	9925 4900 9925 4925
+Wire Wire Line
+	9925 6625 1050 6625
+Connection ~ 9925 4925
+Wire Wire Line
+	9925 4925 9925 6625
+Connection ~ 9050 4925
+Wire Wire Line
+	9050 4925 9050 6525
+Connection ~ 8175 4925
+Wire Wire Line
+	8175 4925 8175 6425
+$Comp
+L power:GNDREF #PWR?
+U 1 1 67B0D51D
+P 7825 4175
+AR Path="/67B0D51D" Ref="#PWR?"  Part="1" 
+AR Path="/6743103A/67B0D51D" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 7825 3925 50  0001 C CNN
+F 1 "GNDREF" H 7830 4002 50  0001 C CNN
+F 2 "" H 7825 4175 50  0001 C CNN
+F 3 "" H 7825 4175 50  0001 C CNN
+	1    7825 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7825 4175 7825 4100
+Wire Wire Line
+	2450 2075 2550 2075
+Wire Wire Line
+	8575 2075 8675 2075
+Wire Wire Line
+	5950 2075 6050 2075
+$Comp
+L Device:R_Small_US R?
+U 1 1 67B5688B
+P 7775 2425
+AR Path="/67B5688B" Ref="R?"  Part="1" 
+AR Path="/6743103A/67B5688B" Ref="R15"  Part="1" 
+F 0 "R15" V 7875 2425 50  0000 C CNN
+F 1 "300r" V 7675 2425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7775 2425 50  0001 C CNN
+F 3 "~" H 7775 2425 50  0001 C CNN
+	1    7775 2425
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7875 2425 7925 2425
+Wire Wire Line
+	7675 2425 7650 2425
+$EndSCHEMATC
